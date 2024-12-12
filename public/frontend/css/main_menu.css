@@ -1,0 +1,129 @@
+
+.desktop-app-bar{
+    background-image: linear-gradient(90deg,#483a25,#8a6c2b,#483a25);
+    padding: 6px 40px 4px 28px;
+    position: -webkit-static;
+    position: static;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #666;
+}
+.desktop-app-bar-text{
+    font-size: 13px;
+}
+.desktop-app-bar-close{
+    /* padding: 0 12px; */
+    position: absolute;
+    right: 15px;
+    background-color: transparent;
+    border: 0;
+    font-size: 26px;
+    color: #fff;
+    cursor: pointer;
+}
+.desktop-app-bar-hyperlink{
+    text-decoration: underline;
+}
+.desktop-app-bar-hyperlink:hover{
+    color: #fff;
+    opacity: 0.85;
+}
+.header-mobile-app-bar{
+    position: static;
+    top: 0px;
+    left: 0;
+    border-bottom: 1px solid #666;
+    width: 100%;
+    height: 78px;
+    background: #3d3d3d url(data:image/gif;base64,R0lGODlhCAAIAIABAFVVVf///yH5BAEHAAEALAAAAAAIAAgAAAINRG4XudroGJBRsYcxKAA7);
+    border-top: 5px solid #4dae67;
+    box-shadow: none;
+    -webkit-transition: all .3s ease;
+    z-index: 9998;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    -webkit-text-size-adjust: none;
+}
+.mobile-app-bar-container{
+    margin: 0 auto;
+}
+.mobile-app-bar-close{
+    position: absolute;
+    right: 5px;
+    top: 32px;
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 14px;
+    -webkit-font-smoothing: subpixel-antialiased;
+    border: 0;
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    color: #b1b1b3;
+    background: #1c1e21;
+    text-shadow: 0 1px 1px #000;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 80%) inset, 0 1px 1px rgb(255 255 255 / 30%);
+}
+.mobile-app-bar-icon{
+    position: absolute;
+    left: 8px;
+    top: 13px;
+    display: block;
+    width: 57px;
+    height: 57px;
+    background: rgba(0,0,0,.6);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
+    font-size: 36px;
+}
+.mobile-app-bar-info{
+    position: absolute;
+    left: 70px;
+    top: 22px;
+    width: 43%;
+    font-size: 11px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #ccc;
+    text-shadow: 0 1px 2px #000;
+}
+.mobile-app-bar-info span{
+    display: block;
+}
+.mobile-app-bar-button{
+    position: absolute;
+    right: 27px;
+    top: 26px;
+    min-width: 12%;
+    height: 24px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    font-weight: 500;
+    padding: 1px;
+    color: #fff;
+    background: 0 0;
+    border-radius: 0;
+    box-shadow: none;
+    min-height: 28px;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: #4dae67;
+    padding: 6px 9px;
+    border-radius: 3px;
+    -webkit-box-shadow: 1px 1px 7px 2px rgb(77 174 103 / 37%);
+    box-shadow: 1px 1px 7px 2px rgb(77 174 103 / 37%);
+    /* box-shadow: 0 0 20px rgb(0 0 0 / 7%); */
+}
+.mobile-app-bar-button:hover{
+    color: #f1f1f1;
+}
+.mobile-app-bar-icon img{
+    border-radius: 11px;
+}

@@ -1,0 +1,2882 @@
+.out-of-stock,
+.pager-link-title,
+.product_weight_select {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.create-cake-item,
+.sponge_header {
+    background: #00472f
+}
+
+.bg_image,
+.cake-foundation,
+.card-header a,
+.design-cake-ch,
+.file,
+.order,
+.single-message-color {
+    position: relative
+}
+
+.layer_four,
+.layer_one,
+.layer_three,
+.layer_two {
+    top: -2px;
+    left: 9px
+}
+
+.accordion,
+.file,
+.layer_six {
+    overflow: hidden
+}
+
+.card-header {
+    text-transform: capitalize;
+    border: 1px solid #6c726e3b
+}
+
+.text-danger {
+    color: #b11a1a;
+    font-size: 11px
+}
+
+.text-success {
+    color: #4dae67;
+    font-size: 11px
+}
+
+.accordion-gutter-md .card:not(:last-child) {
+    -webkit-box-shadow: 0 2px 2px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 12%)
+}
+
+.accordion-plus .collapse::after {
+    content: "\f28f";
+    color: #4dae67
+}
+
+.accordion-dropshadow {
+    -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, .12);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .12);
+    -webkit-box-shadow: 0 0 8px rgb(0 0 0 / 10%);
+    box-shadow: 0 0 8px rgb(0 0 0 / 10%)
+}
+
+.tab-nav-round .nav-item:not(:last-child) {
+    margin-bottom: 5px
+}
+
+.grey-section {
+    padding: 2.5rem 3.2rem 1.4rem
+}
+
+.grey-section h4 {
+    font-size: 2rem;
+    line-height: 1.1
+}
+
+.grey-section p {
+    margin-bottom: 3.2rem;
+    line-height: 1.72
+}
+
+.track-btn {
+    padding: .85rem 2rem;
+    min-height: 4.5rem
+}
+
+.order,
+.out-of-stock .stock-span {
+    display: block
+}
+
+.order .order-results {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 4.8rem 0 1.9rem
+}
+
+.cake_type,
+.card-header a,
+.order .overview-item {
+    display: -webkit-box;
+    display: -ms-flexbox
+}
+
+.order .overview-item {
+    display: flex;
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.order .overview-item:not(:last-child) {
+    margin-right: 3rem;
+    padding-right: 3.1rem
+}
+
+.order .overview-item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    display: block;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 1px;
+    height: 60px;
+    background: #e1e1e1
+}
+
+.order .overview-item span {
+    text-transform: uppercase
+}
+
+.order .overview-item strong {
+    color: #222;
+    font-weight: 600;
+    font-size: 2rem
+}
+
+.accordion-icon .card-header i,
+.card-header a::after {
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: -.01em
+}
+
+@media screen and (max-width:800px) {
+    .mobile-phoneIcon {
+        display: none !important
+    }
+
+    .mobile-userIcon {
+        display: block !important
+    }
+
+    .page-header-responsive {
+        height: 140px
+    }
+
+    .order .order-results {
+        display: block;
+        padding: 0 15px
+    }
+
+    .order .overview-item:not(:last-child)::after {
+        width: 0
+    }
+}
+
+.form-control {
+    transition: .5s;
+    color: #1a1a1a
+}
+
+.border-color:focus,
+.form-control:focus,
+.form-control:hover,
+.login-popup .form-group .form-control:focus,
+.login-popup .form-group .form-control:hover,
+.message_on_cake .form-control:not(select):focus {
+    border-color: #4dae67
+}
+
+#sponge_item,
+#sponge_item_first,
+#sponge_item_fruit,
+#sponge_item_secound,
+.accordion .collapsed,
+.accordion .expanding,
+.out-of-stock .stock-out,
+.out-of-stock i.fas {
+    display: none
+}
+
+ul li {
+    list-style: none
+}
+
+.sponge_item_list {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px
+}
+
+.sponge_item_wrapper ul li {
+    width: 100%;
+    padding-left: 15px
+}
+
+.sponge_item_wrapper {
+    display: inline-block;
+    width: 100%;
+    padding: 30px 0
+}
+
+.sponge_header .fa {
+    display: inline-block;
+    font-size: 20px;
+    float: right;
+    color: #fff
+}
+
+h3#sponge_type_block {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300
+}
+
+.sponge_header {
+    cursor: pointer;
+    padding: 4px 10px
+}
+
+.cake-foundation,
+.cake-foundation img,
+.design_cake_image img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.layer_five,
+.layer_four,
+.layer_one,
+.layer_six,
+.layer_three,
+.layer_two {
+    line-height: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+.layer_one {
+    z-index: -10
+}
+
+.layer_two {
+    z-index: -11
+}
+
+.layer_three {
+    z-index: -12
+}
+
+.layer_four {
+    z-index: -13
+}
+
+.layer_five {
+    top: 17px;
+    left: 9px;
+    z-index: -14
+}
+
+.layer_six {
+    position: absolute;
+    width: 61%;
+    border-radius: 50%;
+    -webkit-transform-origin: top center;
+    -ms-transform-origin: top center;
+    transform-origin: top center;
+    top: 102px;
+    left: 114px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: rotateX(75deg);
+    -ms-transform: rotateX(75deg);
+    -moz-transform: rotateX(75deg);
+    transform: rotateX(75deg)
+}
+
+.layer-content h3 {
+    font-style: inherit;
+    font-size: 24px;
+    margin-bottom: 0
+}
+
+.layer-content p {
+    margin-top: 10px
+}
+
+.layer-content {
+    margin-top: 5%
+}
+
+.cake_decoration {
+    position: relative;
+    padding-left: 20px
+}
+
+.cake_decoration_image {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 2%;
+    margin-top: 5px
+}
+
+.cake-message h3 {
+    font-size: 16px;
+    font-style: inherit;
+    margin-bottom: 10px
+}
+
+.cake-message textarea {
+    width: 100%;
+    padding: 0 10px 10px;
+    font-size: 14px
+}
+
+.single-message-color .select-color {
+    height: 25px;
+    width: 25px;
+    background-color: #e74c3c;
+    position: absolute;
+    right: 1%;
+    top: 9%;
+    border-radius: 20px
+}
+
+.cake-note {
+    width: 100%;
+    display: inline-block
+}
+
+.ordered_cake_discription h5 {
+    text-transform: inherit;
+    margin-bottom: 5px
+}
+
+ul#cake_weight {
+    border: 1px solid #cbcbcb;
+    padding: 10px;
+    border-top: 0;
+    overflow-y: auto;
+    max-height: 150px
+}
+
+.cake-category .bread.active {
+    background: red
+}
+
+@media only screen and (max-width:999px) {
+    .showmnavmedium {
+        display: block !important
+    }
+
+    .hidemnavmedium {
+        display: none !important
+    }
+}
+
+#cake-studio-a {
+    padding: 30px 30px 0 0
+}
+
+@media only screen and (min-width:600px) {
+    #cake-studio-a {
+        padding: 30px 30px 0
+    }
+}
+
+@media only screen and (max-width:380px) and (min-width:370px) {
+    .printed_image .user_choosen_img {
+        position: absolute;
+        height: 248px;
+        width: 241px !important;
+        margin: 84px 15px 0 62px !important
+    }
+}
+
+@media only screen and (max-width:380px) and (min-width:320px) {
+    .normal-cake-css .printed_image .user_choosen_img {
+        position: absolute;
+        height: 242px;
+        width: 250px !important;
+        margin: 18px -8px 3px 62px !important;
+        bottom: unset
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .printed-cake-css .user_choosen_img {
+        bottom: 24%;
+        right: 4%
+    }
+
+    .printed-cake-css .printed_image {
+        margin-left: -2.4em
+    }
+}
+
+.grid--rev {
+    direction: ltr;
+    text-align: left
+}
+
+@media only screen and (max-width:500px) {
+    .printed_image {
+        padding: 1px 9px 80px 1px !important
+    }
+
+    .user_choosen_img {
+        bottom: 19%;
+        right: 15%
+    }
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 195px;
+        position: relative
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .printed_image {
+        padding: 1px 9px 73px 1px !important
+    }
+
+    .user_choosen_img {
+        bottom: 23%;
+        right: 9%
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .printed_image {
+        padding: 1px 9px 73px 1px !important
+    }
+
+    .user_choosen_img {
+        bottom: 23%;
+        right: 4%
+    }
+}
+
+input[type=radio]~label::after {
+    background: #4dae67
+}
+
+.card-header {
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1;
+    color: #222;
+    border: 0
+}
+
+.out-of-stock,
+.pager-link {
+    text-transform: uppercase;
+    position: relative
+}
+
+.pager-link-title,
+.product-single label,
+.related-posts .post-title {
+    text-transform: none
+}
+
+.card-header a {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 1.8rem .5rem
+}
+
+.accordion-color .collapse,
+.card-header .collapse,
+.card-header a:hover,
+.card-header a:hover::after,
+.custom-checkbox:checked+.remember>span,
+.form-checkbox:hover .remember span,
+.product-single .product-price {
+    color: #4dae67
+}
+
+.card-header a::after {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: .5rem;
+    font-family: riode;
+    color: #222
+}
+
+.expand::after {
+    content: "\e953"
+}
+
+.collapse::after {
+    content: "\e952"
+}
+
+.card-body {
+    padding: 1.3rem .5rem
+}
+
+.accordion-simple .card,
+.border-top {
+    border-top: 1px solid #e1e1e1
+}
+
+.accordion-gutter-md .card:not(:last-child) {
+    margin-bottom: 10px
+}
+
+.accordion-gutter-sm .card:not(:last-child) {
+    margin-bottom: 2px
+}
+
+.accordion-plus .expand::after {
+    content: "\f2c3"
+}
+
+.accordion-plus .collapse::after {
+    content: "\f28f"
+}
+
+.accordion-boxed .card-body,
+.accordion-boxed .card-header a {
+    padding-left: 2rem;
+    padding-right: 2rem
+}
+
+.accordion-boxed .card-header a::after {
+    right: 2.3rem
+}
+
+.accordion-border .card {
+    border-width: 1px 1px 0;
+    border-style: solid;
+    border-color: #e1e1e1
+}
+
+.accordion-border .card:last-child,
+.border-bottom {
+    border-bottom: 1px solid #e1e1e1
+}
+
+.accordion-background .card {
+    background-color: #fff;
+    border-color: #fff
+}
+
+.accordion-icon .card-header i {
+    margin-right: 1.5rem;
+    line-height: 0
+}
+
+.accordion-card-bg .card {
+    border: 1px solid #f2f3f5
+}
+
+.accordion-card-bg .card-header a {
+    padding-top: 1.7rem;
+    padding-bottom: 1.7rem;
+    background-color: #f2f3f5
+}
+
+.accordion-card-bg.accordion-primary .card {
+    border: 0;
+    background-color: #f2f3f5
+}
+
+.accordion-card-bg.accordion-primary .card-header a {
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+    background-color: #37c;
+    color: #fff
+}
+
+.accordion-card-bg.accordion-primary .card-header a::after,
+.header-top a:hover {
+    color: #fff
+}
+
+.accordion-card-border .card {
+    border: 1px solid #dae1e5
+}
+
+#product-tab-description li::before,
+.card-description li::before,
+.checkout input.form-control::before {
+    content: ""
+}
+
+.cake_type {
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+.border-e1 {
+    border: 1px solid #e1e1e1
+}
+
+.product-single .rating-form label,
+.product-single form label {
+    font-weight: 600;
+    font-size: 1.24rem;
+    padding-left: 4px
+}
+
+.custom-radio input {
+    display: block;
+    -webkit-appearance: button;
+    opacity: 0
+}
+
+.custom-radio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.title-simple {
+    font-size: 3rem;
+    margin-bottom: 0;
+    padding: 20px 0 20px 15px
+}
+
+.cake-foundation {
+    background-image: url(/Ecom/testCake/background1.png);
+    height: 500px
+}
+
+.design-cake-ch {
+    height: 500px
+}
+
+.photo_cake_parent {
+    -webkit-perspective: 1192px;
+    -moz-perspective: 1192px;
+    -ms-perspective: 1192px;
+    perspective: 1192px;
+    width: 100%;
+    height: 100%
+}
+
+.cake-foundation img,
+.design_cake_image img {
+    height: 100%;
+    width: 93%
+}
+
+.bg_image {
+    height: 502px;
+    width: 100% !important
+}
+
+.design_cake_box {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 200px
+}
+
+.message_on_cake .form-control {
+    margin-bottom: 2.1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1.3rem;
+    font-family: Poppins, sans-serif;
+    -webkit-transition: background-color .3s, border-color .3s;
+    -o-transition: background-color .3s, border-color .3s;
+    transition: background-color .3s, border-color .3s;
+    color: #999;
+    min-height: 4.1rem;
+    border-radius: .3rem
+}
+
+.single-product .title {
+    font-size: 2rem
+}
+
+.cake_type_p {
+    padding: 1.8rem .5rem
+}
+
+.d-flex {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.file>input {
+    position: absolute;
+    font-size: 50px;
+    opacity: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%
+}
+
+.btn.btn-sm {
+    padding: .72em 1.51em;
+    font-size: 1.2rem;
+    text-transform: capitalize
+}
+
+.btn-dark.btn-outline {
+    color: #4dae67;
+    border-color: #4dae67
+}
+
+.btn-dark.btn-outline:active,
+.btn-dark.btn-outline:focus,
+.btn-dark.btn-outline:hover {
+    background-color: #4dae67;
+    color: #fff
+}
+
+.pb-custom {
+    padding-bottom: 1.8rem
+}
+
+.product-form select {
+    height: 4.5rem
+}
+
+.cake_description * {
+    font-family: Poppins, sans-serif !important
+}
+
+.cake_description p {
+    margin-bottom: 3px;
+    font-weight: 500
+}
+
+.page-header {
+    height: 175px
+}
+
+.page-subtitle {
+    font-size: 1.85rem
+}
+
+.page-title {
+    font-size: 3rem
+}
+
+@media only screen and (max-width:576px) {
+    .single-product .title {
+        font-size: 1.8rem
+    }
+
+    .card-header a {
+        padding: 1.4rem .5rem
+    }
+
+    .cake_type_p.ml-5,
+    .card.ml-5 {
+        margin-left: 1.8rem !important
+    }
+
+    .cake_type_p.mr-4,
+    .card.mr-4 {
+        margin-right: 1.2rem !important
+    }
+
+    #product-tab-description li,
+    .card-description li {
+        padding-left: 1rem
+    }
+
+    .product-single .product-price {
+        font-size: 2rem
+    }
+
+    .cake_description h3 {
+        font-size: 2.5rem
+    }
+
+    .cake_description p {
+        margin-bottom: 2px;
+        font-size: 1.28rem;
+        font-weight: 500
+    }
+}
+
+.footer-left p,
+.header-search.hs-simple .form-control {
+    margin-bottom: 0
+}
+
+@media only screen and (max-width:767px) {
+    .product-single {
+        position: relative
+    }
+
+    .product-single .custom-sticky {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background-color: #f9f9f9;
+        border-bottom: 1px solid #e1e1e1;
+        overflow: hidden
+    }
+
+    .border-top-no {
+        border-top: 0
+    }
+
+    .cart .shop-table .product-quantity {
+        margin-left: auto !important
+    }
+}
+
+.layer_six img {
+    width: 100%;
+    -webkit-clip-path: polygon(50% 100%, 50% 54%, 100% 132%, 100% 0%, 0% 0%, 0% 100%);
+    clip-path: polygon(50% 100%, 50% 54%, 100% 132%, 100% 0%, 0% 0%, 0% 100%)
+}
+
+@media only screen and (max-width:290px) and (min-width:260px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 230px
+    }
+
+    .cake-foundation img {
+        width: 95%;
+        height: 96%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: 5px;
+        left: 3px
+    }
+
+    .layer_five {
+        top: 13px;
+        left: 3px
+    }
+
+    .product-single .custom-sticky {
+        height: 171px
+    }
+
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 54%, 100% 119%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 71%;
+        top: 45px;
+        left: 37px
+    }
+}
+
+@media only screen and (max-width:319px) and (min-width:291px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 230px
+    }
+
+    .cake-foundation img {
+        width: 92%;
+        height: 101%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: -3px;
+        left: 5px
+    }
+
+    .layer_five {
+        top: 5px;
+        left: 5px
+    }
+
+    .product-single .custom-sticky {
+        height: 178px
+    }
+
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 45%, 100% 121%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 70%;
+        top: 44px;
+        left: 42px
+    }
+}
+
+@media only screen and (max-width:335px) and (min-width:320px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 260px
+    }
+
+    .cake-foundation img {
+        width: 89%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: -1px;
+        left: 5px
+    }
+
+    .layer_five {
+        top: 9px;
+        left: 5px
+    }
+
+    .product-single .custom-sticky {
+        height: 194px
+    }
+}
+
+@media only screen and (max-width:351px) and (min-width:336px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 273px
+    }
+
+    .cake-foundation img {
+        width: 90%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: -1px;
+        left: 6px
+    }
+
+    .layer_five {
+        top: 9px;
+        left: 6px
+    }
+
+    .product-single .custom-sticky {
+        height: 208px
+    }
+}
+
+@media only screen and (max-width:367px) and (min-width:352px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 294px
+    }
+
+    .cake-foundation img {
+        width: 92%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: -1px;
+        left: 5px
+    }
+
+    .layer_five {
+        top: 10px;
+        left: 5px
+    }
+
+    .product-single .custom-sticky {
+        height: 218px
+    }
+}
+
+@media only screen and (max-width:383px) and (min-width:368px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 300px
+    }
+
+    .cake-foundation img {
+        width: 90%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: -1px;
+        left: 6px
+    }
+
+    .layer_five {
+        top: 10px;
+        left: 6px
+    }
+
+    .product-single .custom-sticky {
+        height: 225px
+    }
+}
+
+@media only screen and (max-width:399px) and (min-width:384px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 314px
+    }
+
+    .cake-foundation img {
+        width: 91%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: -1px;
+        left: 6px
+    }
+
+    .layer_five {
+        top: 10px;
+        left: 6px
+    }
+
+    .product-single .custom-sticky {
+        height: 235px
+    }
+}
+
+@media only screen and (max-width:415px) and (min-width:400px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 327px
+    }
+
+    .cake-foundation img {
+        width: 91%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: -1px;
+        left: 6px
+    }
+
+    .layer_five {
+        top: 11px;
+        left: 6px
+    }
+
+    .product-single .custom-sticky {
+        height: 246px
+    }
+}
+
+@media only screen and (max-width:431px) and (min-width:416px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 341px
+    }
+
+    .cake-foundation img {
+        width: 91%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: -1px;
+        left: 6px
+    }
+
+    .layer_five {
+        top: 11px;
+        left: 6px
+    }
+
+    .product-single .custom-sticky {
+        height: 256px
+    }
+}
+
+@media only screen and (max-width:447px) and (min-width:432px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 354px
+    }
+
+    .cake-foundation img {
+        width: 92%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: -1px;
+        left: 7px
+    }
+
+    .layer_five {
+        top: 12px;
+        left: 7px
+    }
+
+    .product-single .custom-sticky {
+        height: 264px
+    }
+}
+
+@media only screen and (max-width:463px) and (min-width:448px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 368px
+    }
+
+    .cake-foundation img {
+        width: 91%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: -1px;
+        left: 7px
+    }
+
+    .layer_five {
+        top: 12px;
+        left: 7px
+    }
+
+    .product-single .custom-sticky {
+        height: 276px
+    }
+}
+
+@media only screen and (max-width:479px) and (min-width:464px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 382px
+    }
+
+    .cake-foundation img {
+        width: 90%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: -1px;
+        left: 7px
+    }
+
+    .layer_five {
+        top: 12px;
+        left: 7px
+    }
+
+    .product-single .custom-sticky {
+        height: 287px
+    }
+}
+
+@media only screen and (max-width:495px) and (min-width:480px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 388px
+    }
+
+    .cake-foundation img {
+        width: 91%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: -1px;
+        left: 7px
+    }
+
+    .layer_five {
+        top: 12px;
+        left: 7px
+    }
+
+    .product-single .custom-sticky {
+        height: 290px
+    }
+}
+
+@media only screen and (max-width:511px) and (min-width:496px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 400px
+    }
+
+    .cake-foundation img {
+        width: 90%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: -1px;
+        left: 8px
+    }
+
+    .layer_five {
+        top: 14px;
+        left: 8px
+    }
+
+    .product-single .custom-sticky {
+        height: 300px
+    }
+}
+
+@media only screen and (max-width:527px) and (min-width:512px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 415px
+    }
+
+    .cake-foundation img {
+        width: 91%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: -1px;
+        left: 8px
+    }
+
+    .layer_five {
+        top: 14px;
+        left: 8px
+    }
+
+    .product-single .custom-sticky {
+        height: 310px
+    }
+}
+
+@media only screen and (max-width:543px) and (min-width:528px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 428px
+    }
+
+    .cake-foundation img {
+        width: 91%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: -1px;
+        left: 8px
+    }
+
+    .layer_five {
+        top: 14px;
+        left: 8px
+    }
+
+    .product-single .custom-sticky {
+        height: 321px
+    }
+}
+
+@media only screen and (max-width:559px) and (min-width:544px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 441px
+    }
+
+    .cake-foundation img {
+        width: 91%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: -1px;
+        left: 8px
+    }
+
+    .layer_five {
+        top: 15px;
+        left: 8px
+    }
+
+    .product-single .custom-sticky {
+        height: 329px
+    }
+}
+
+@media only screen and (max-width:575px) and (min-width:560px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 456px
+    }
+
+    .cake-foundation img {
+        width: 91%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: -1px;
+        left: 9px
+    }
+
+    .layer_five {
+        top: 15px;
+        left: 9px
+    }
+
+    .product-single .custom-sticky {
+        height: 342px
+    }
+}
+
+@media only screen and (max-width:630px) and (min-width:576px) {
+    .cake-foundation img {
+        width: 92%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: -2px;
+        left: 9px
+    }
+
+    .layer_five {
+        top: 17px;
+        left: 9px
+    }
+
+    .product-single .custom-sticky {
+        height: 370px
+    }
+}
+
+@media only screen and (max-width:325px) and (min-width:320px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 44%, 100% 116%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 70%;
+        top: 54px;
+        left: 45px
+    }
+}
+
+@media only screen and (max-width:331px) and (min-width:326px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 49%, 100% 122%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 69%;
+        top: 51px;
+        left: 48px
+    }
+}
+
+@media only screen and (max-width:335px) and (min-width:332px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 47%, 100% 121%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 69%;
+        top: 51px;
+        left: 48px
+    }
+}
+
+@media only screen and (max-width:342px) and (min-width:336px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 51%, 100% 124%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 70%;
+        top: 53px;
+        left: 48px
+    }
+}
+
+@media only screen and (max-width:350px) and (min-width:343px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(51% 100%, 50% 48%, 100% 124%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 70%;
+        top: 53px;
+        left: 48px
+    }
+}
+
+@media only screen and (max-width:358px) and (min-width:351px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(51% 100%, 50% 49%, 100% 121%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 70%;
+        top: 59px;
+        left: 48px
+    }
+}
+
+@media only screen and (max-width:367px) and (min-width:359px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(51% 100%, 51% 48%, 100% 120%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 70%;
+        top: 59px;
+        left: 49px
+    }
+}
+
+@media only screen and (max-width:375px) and (min-width:368px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(51% 100%, 51% 50%, 100% 124%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 70%;
+        top: 59px;
+        left: 50px
+    }
+}
+
+@media only screen and (max-width:383px) and (min-width:376px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(51% 100%, 51% 49%, 100% 127%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 70%;
+        top: 59px;
+        left: 52px
+    }
+}
+
+@media only screen and (max-width:391px) and (min-width:384px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(51% 100%, 51% 49%, 100% 124%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 70%;
+        top: 62px;
+        left: 52px
+    }
+}
+
+@media only screen and (max-width:399px) and (min-width:392px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(51% 100%, 51% 48%, 100% 125%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 70%;
+        top: 62px;
+        left: 53px
+    }
+}
+
+@media only screen and (max-width:407px) and (min-width:400px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 48%, 100% 124%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 67%;
+        top: 65px;
+        left: 63px
+    }
+}
+
+@media only screen and (max-width:415px) and (min-width:408px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 50%, 100% 125%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 67%;
+        top: 65px;
+        left: 65px
+    }
+}
+
+@media only screen and (max-width:423px) and (min-width:416px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 50%, 100% 125%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 67%;
+        top: 68px;
+        left: 66px
+    }
+}
+
+@media only screen and (max-width:431px) and (min-width:424px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 52%, 100% 125%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 67%;
+        top: 67px;
+        left: 67px
+    }
+}
+
+@media only screen and (max-width:439px) and (min-width:432px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(51% 100%, 50% 51%, 100% 126%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 67%;
+        top: 70px;
+        left: 67px
+    }
+}
+
+@media only screen and (max-width:447px) and (min-width:440px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 50%, 100% 126%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 67%;
+        top: 70px;
+        left: 69px
+    }
+}
+
+@media only screen and (max-width:455px) and (min-width:448px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 51%, 100% 126%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 66%;
+        top: 74px;
+        left: 73px
+    }
+}
+
+@media only screen and (max-width:463px) and (min-width:456px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 51%, 100% 126%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 66%;
+        top: 73px;
+        left: 74px
+    }
+}
+
+@media only screen and (max-width:471px) and (min-width:464px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 52%, 100% 126%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 65%;
+        top: 77px;
+        left: 78px
+    }
+}
+
+@media only screen and (max-width:479px) and (min-width:472px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 52%, 100% 128%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 65%;
+        top: 76px;
+        left: 79px
+    }
+}
+
+@media only screen and (max-width:487px) and (min-width:480px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 51%, 100% 126%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 65%;
+        top: 78px;
+        left: 80px
+    }
+}
+
+@media only screen and (max-width:495px) and (min-width:488px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 51%, 100% 125%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 65%;
+        top: 77px;
+        left: 80px
+    }
+}
+
+@media only screen and (max-width:503px) and (min-width:496px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(51% 100%, 51% 50%, 100% 125%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 65%;
+        top: 81px;
+        left: 80px
+    }
+}
+
+@media only screen and (max-width:511px) and (min-width:504px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(51% 100%, 51% 53%, 100% 127%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 65%;
+        top: 80px;
+        left: 82px
+    }
+}
+
+@media only screen and (max-width:519px) and (min-width:512px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(51% 100%, 51% 53%, 100% 127%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 64%;
+        top: 84px;
+        left: 85px
+    }
+}
+
+@media only screen and (max-width:527px) and (min-width:520px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 53%, 100% 134%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 64%;
+        top: 87px;
+        left: 88px;
+        -webkit-transform: rotateX(76deg);
+        -ms-transform: rotateX(76deg);
+        -moz-transform: rotateX(76deg);
+        transform: rotateX(76deg)
+    }
+}
+
+@media only screen and (max-width:535px) and (min-width:528px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 54%, 100% 130%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 63%;
+        top: 85px;
+        left: 93px
+    }
+}
+
+@media only screen and (max-width:543px) and (min-width:536px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 54%, 100% 129%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 64%;
+        top: 85px;
+        left: 91px
+    }
+}
+
+@media only screen and (max-width:551px) and (min-width:544px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 53%, 100% 131%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 64%;
+        top: 89px;
+        left: 93px
+    }
+}
+
+@media only screen and (max-width:559px) and (min-width:552px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 54%, 100% 129%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 63%;
+        top: 88px;
+        left: 96px
+    }
+}
+
+@media only screen and (max-width:567px) and (min-width:560px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 54%, 100% 131%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 62%;
+        top: 92px;
+        left: 101px
+    }
+}
+
+@media only screen and (max-width:575px) and (min-width:568px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 55%, 100% 131%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 62%;
+        top: 91px;
+        left: 102px
+    }
+}
+
+@media only screen and (max-width:586px) and (min-width:576px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 58%, 100% 128%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 60%;
+        top: 104px;
+        left: 110px
+    }
+}
+
+@media only screen and (max-width:597px) and (min-width:587px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(50% 100%, 50% 58%, 100% 131%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 61%;
+        top: 103px;
+        left: 109px
+    }
+}
+
+@media only screen and (max-width:608px) and (min-width:598px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(51% 100%, 51% 57%, 100% 132%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 61%;
+        top: 103px;
+        left: 109px
+    }
+}
+
+@media only screen and (max-width:619px) and (min-width:609px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(51% 100%, 51% 55%, 100% 131%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 61%;
+        top: 103px;
+        left: 110px
+    }
+}
+
+@media only screen and (max-width:630px) and (min-width:620px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(51% 100%, 50% 55%, 100% 134%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 61%;
+        top: 102px;
+        left: 115px
+    }
+}
+
+@media only screen and (max-width:685px) and (min-width:631px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 548px
+    }
+
+    .cake-foundation img {
+        width: 93%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: -2px;
+        left: 10px
+    }
+
+    .layer_five {
+        top: 18px;
+        left: 10px
+    }
+
+    .product-single .custom-sticky {
+        height: 430px
+    }
+
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(51% 100%, 51% 56%, 100% 132%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 59%;
+        top: 115px;
+        left: 124px
+    }
+}
+
+@media only screen and (max-width:740px) and (min-width:686px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 618px
+    }
+
+    .cake-foundation img {
+        width: 91%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: 2px;
+        left: 11px
+    }
+
+    .layer_five {
+        top: 25px;
+        left: 11px
+    }
+
+    .product-single .custom-sticky {
+        height: 477px
+    }
+
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(51% 100%, 51% 61%, 100% 130%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 54%;
+        top: 132px;
+        left: 155px
+    }
+}
+
+@media only screen and (max-width:767px) and (min-width:741px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 618px
+    }
+
+    .cake-foundation img {
+        width: 92%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: -2px;
+        left: 11px
+    }
+
+    .layer_five {
+        top: 21px;
+        left: 11px
+    }
+
+    .product-single .custom-sticky {
+        height: 485px
+    }
+
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(51% 100%, 51% 60%, 100% 137%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 56%;
+        top: 129px;
+        left: 156px
+    }
+}
+
+@media only screen and (max-width:842px) and (min-width:768px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 360px
+    }
+
+    .cake-foundation img {
+        width: 92%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: 3px;
+        left: 6px
+    }
+
+    .layer_five {
+        top: 16px;
+        left: 6px
+    }
+
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(51% 100%, 51% 54%, 100% 121%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 64%;
+        top: 76px;
+        left: 68px
+    }
+}
+
+@media only screen and (max-width:917px) and (min-width:843px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 370px
+    }
+
+    .cake-foundation img {
+        width: 91%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: 0;
+        left: 7px
+    }
+
+    .layer_five {
+        top: 14px;
+        left: 7px
+    }
+
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(51% 100%, 51% 53%, 100% 123%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 65%;
+        top: 76px;
+        left: 72px
+    }
+}
+
+@media only screen and (max-width:991px) and (min-width:918px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 400px
+    }
+
+    .cake-foundation img {
+        width: 92%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: -1px;
+        left: 7px
+    }
+
+    .layer_five {
+        top: 14px;
+        left: 7px
+    }
+
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(52% 100%, 52% 53%, 100% 125%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 66%;
+        top: 81px;
+        left: 72px
+    }
+}
+
+@media only screen and (max-width:1150px) and (min-width:992px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 474px
+    }
+
+    .cake-foundation img {
+        width: 92%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: 0;
+        left: 8px
+    }
+
+    .layer_five {
+        top: 18px;
+        left: 8px
+    }
+
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(52% 100%, 52% 57%, 100% 124%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 62%;
+        top: 99px;
+        left: 94px
+    }
+}
+
+@media only screen and (max-width:1200px) and (min-width:1151px) {
+
+    .cake-foundation,
+    .design-cake-ch {
+        height: 500px
+    }
+
+    .cake-foundation img {
+        width: 93%
+    }
+
+    .layer_four,
+    .layer_one,
+    .layer_three,
+    .layer_two {
+        top: 0;
+        left: 9px
+    }
+
+    .layer_five {
+        top: 19px;
+        left: 9px
+    }
+
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(52% 100%, 52% 57%, 100% 130%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 62%;
+        top: 103px;
+        left: 103px
+    }
+}
+
+@media only screen and (max-width:768px) and (min-width:768px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(51% 100%, 51% 57%, 100% 120%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 68%;
+        top: 86px;
+        left: 55px;
+        height: 75%
+    }
+}
+
+@media only screen and (max-width:1024px) and (min-width:1024px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(51% 100%, 51% 49%, 100% 139%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 67%;
+        top: 121px;
+        left: 80px;
+        height: 75%
+    }
+}
+
+@media only screen and (max-width:800px) and (min-width:800px) {
+    .layer_six img {
+        width: 100%;
+        clip-path: polygon(51% 100%, 51% 54%, 100% 120%, 100% 0%, 0% 0%, 0% 100%);
+        height: 100%
+    }
+
+    .layer_six {
+        width: 67%;
+        top: 86px;
+        left: 60px;
+        height: 75%
+    }
+}
+
+.banners-section figure img {
+    min-height: auto
+}
+
+@media only screen and (max-width:800px) {
+
+    .banner3,
+    .banners-section figure img {
+        min-height: auto
+    }
+}
+
+@media (min-width:768px) {
+    .d-md-none {
+        display: none !important
+    }
+
+    .d-md-block {
+        display: block !important
+    }
+
+    .d-md-flex {
+        display: flex !important
+    }
+
+    .d-md-inline-flex {
+        display: inline-flex !important
+    }
+}
+
+@media (min-width:640px) {
+    .d-sm-none {
+        display: none !important
+    }
+
+    .d-sm-block {
+        display: block !important
+    }
+
+    .d-sm-flex {
+        display: flex !important
+    }
+
+    .d-sm-inline-flex {
+        display: inline-flex !important
+    }
+}
+
+.footer-left p,
+.payment img {
+    width: 85%
+}
+
+.footer-bottom .footer-left,
+.footer-bottom .footer-right {
+    flex: 0 0 33.33%
+}
+
+.footer-center {
+    margin: 0 auto
+}
+
+@media only screen and (max-width:991px) and (min-width:767px) {
+    .payment img {
+        width: 50%;
+        margin: 0 auto
+    }
+
+    .footer-left p {
+        width: 50%;
+        margin: 0 auto !important
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .payment img {
+        margin: 0 auto;
+        width: 90%
+    }
+
+    .footer-left p {
+        width: 85%;
+        margin: 0 auto !important
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width:768px) {
+    .payment img {
+        margin: 0 auto;
+        width: 60%
+    }
+
+    .footer-left p {
+        width: 60%;
+        margin: 0 auto !important
+    }
+}
+
+.social-link {
+    line-height: 25px
+}
+
+.social-link.social-instagram:hover {
+    background: #833ab4;
+    border-color: #833ab4
+}
+
+.social-link.social-youtube:hover {
+    background: #c4302b;
+    border-color: #c4302b
+}
+
+.product-form .tier-label {
+    min-width: 14.5rem
+}
+
+.btn .mobile-menu-close {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0
+}
+
+.btn .mobile-menu-close .d-icon-search {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.mobile-menu .toggle-btn {
+    padding-left: 100%
+}
+
+footer .card {
+    background-color: transparent
+}
+
+footer .accordion-boxed .card {
+    border-top: 0
+}
+
+footer .card-header a {
+    padding: .6rem 0;
+    margin-bottom: .9rem;
+    font-family: inherit;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    color: #e1e1e1
+}
+
+footer .accordion-simple * {
+    border: 0
+}
+
+footer .card-header .collapse,
+footer .card-header a::after {
+    color: #e1e1e1 !important
+}
+
+footer .card-body {
+    padding: .1rem 0 2rem
+}
+
+.footer-left {
+    flex-direction: column
+}
+
+footer .accordion-boxed .card-body,
+footer .accordion-boxed .card-header a {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0
+}
+
+footer .accordion-boxed .card-header a::after {
+    right: 0
+}
+
+footer .footer-middle {
+    padding: 70px 0 5px;
+    border-color: #0b3e02
+}
+
+@media screen and (max-width:767px) {
+    .header-middle {
+        padding-top: 1rem;
+        padding-bottom: 1rem
+    }
+}
+
+@media screen and (max-width:600px) {
+    .home .nav.nav-tabs .nav-link {
+        font-size: 1.4rem
+    }
+
+    .products-wrapper .title {
+        font-size: 1.6rem
+    }
+
+    .customized-cake .product-details {
+        padding-top: .4rem
+    }
+
+    .footer-middle {
+        padding-top: 4rem;
+        padding-bottom: 12px
+    }
+
+    .banner-big-section {
+        padding: 40px 0 20px
+    }
+}
+
+.header-top {
+    background-color: #00472f
+}
+
+.divider {
+    background-color: #999
+}
+
+.header-top>* {
+    color: #e1e1e1;
+    transition: .45s
+}
+
+.cart-table .input-group input,
+.message_on_cake .form-control:not(:focus),
+.product.product-cart .btn-close,
+.tab-content,
+.toolbox,
+body {
+    background-color: #f9f9f9
+}
+
+.product.product-with-qty button,
+.tab-nav-round .nav-link {
+    background: #e9e7e7
+}
+
+.header-middle {
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem
+}
+
+.service-carousel {
+    box-shadow: 0 0 20px rgb(0 0 0 / 7%);
+    background-color: #fff
+}
+
+.accordion-dropshadow .card {
+    background-color: #f9f9f9;
+    border-color: #f9f9f9
+}
+
+.card,
+.dropdown-box,
+.mfp-content>*,
+.product-nav-popup,
+input[type=radio]~label::before {
+    background: #f9f9f9
+}
+
+.custom-box-shadow>*,
+.grey-section {
+    box-shadow: 0 0 8px rgb(0 0 0 / 10%)
+}
+
+.banner-big-section .banner-title {
+    font-size: 3.3rem
+}
+
+.checkout .alert.card-header {
+    background-color: #f9f9f9 !important
+}
+
+main.main {
+    border: 1px solid #eee
+}
+
+.input-wrapper>button {
+    margin: 0
+}
+
+.load-more-overlay::before {
+    background: 0 0
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
+.product.cart-full .btn-cart:active,
+.product.cart-full .btn-cart:focus,
+.product.cart-full .btn-cart:hover,
+.product.product-with-qty .product-details .btn-cart:active,
+.product.product-with-qty .product-details .btn-cart:focus,
+.product.product-with-qty .product-details .btn-cart:hover {
+    box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%)
+}
+
+.product.product-cart .btn-close i {
+    font-size: 1.1rem
+}
+
+.btn-primary.btn-link {
+    box-shadow: none
+}
+
+.custom-checkbox:checked+label::before {
+    border-color: #4dae67;
+    background: #4dae67
+}
+
+.login-popup .form-group .form-control {
+    transition: .4s
+}
+
+.form-checkbox .remember span {
+    transition: .5s
+}
+
+.alert_message .line-height-custom {
+    display: block;
+    line-height: 16px
+}
+
+.email_err,
+.login_email_err,
+.login_pass_err,
+.name_err,
+.password_err,
+.phone_err {
+    line-height: 1;
+    display: block;
+    margin-top: 7px
+}
+
+.out-of-stock,
+.product_weight_select {
+    z-index: 1;
+    line-height: 2.9;
+    text-align: center;
+    font-family: Poppins, sans-serif
+}
+
+.out-of-stock {
+    cursor: pointer;
+    padding: 0;
+    transition: .3s;
+    max-width: 12.3rem;
+    margin-right: 0;
+    flex: 1;
+    height: 4.2rem;
+    font-size: 1.3rem;
+    display: block;
+    color: #fff;
+    background-color: #bd5353;
+    border: 2px solid #bd5353;
+    border-radius: .3rem;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    letter-spacing: -.025em
+}
+
+.out-of-stock:hover {
+    opacity: .9
+}
+
+@media (max-width:479px) {
+    .out-of-stock i.fas {
+        display: block;
+        font-size: 18px;
+        height: 100%;
+        position: relative;
+        top: 9px;
+        right: 2px
+    }
+
+    .out-of-stock .stock-out {
+        display: block;
+        font-size: 8px;
+        font-weight: 600;
+        color: #bd5353;
+        position: absolute;
+        top: 43%;
+        left: 50%;
+        transform: translate(-50%, -43%)
+    }
+
+    .out-of-stock .stock-span {
+        display: none
+    }
+
+    .out-of-stock {
+        height: 3.8rem;
+        border: none
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1150px) {
+    .header-bottom {
+        font-size: 1.1rem
+    }
+}
+
+.product_weight_select {
+    padding: 0 .2em;
+    transition: background-color .3s, border-color .3s, color .3s;
+    flex: 1;
+    height: 4.2rem;
+    font-size: 1.2rem;
+    display: block;
+    max-width: 14rem;
+    color: #222;
+    background-color: transparent;
+    border: 2px solid #ccc;
+    margin-right: 5px;
+    border-radius: .3rem;
+    font-weight: 500;
+    min-height: 3rem
+}
+
+.product-list-sm .product_weight_select {
+    height: 3.7rem
+}
+
+.page-nav {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    width: 100%
+}
+
+.pager-link {
+    color: #999;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.5;
+    transition: .35s
+}
+
+.pager-link+.pager-link {
+    border-left: .1rem solid #ebebeb
+}
+
+.pager-link:after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: riode;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1;
+    transition: .35s 50ms
+}
+
+.pager-link.pager-link-prev {
+    padding-right: 3rem;
+    padding-left: 4.2rem
+}
+
+.pager-link.pager-link-prev:after {
+    content: "\e97e";
+    left: .2rem
+}
+
+.pager-link.pager-link-next {
+    padding-left: 3rem;
+    padding-right: 4.2rem;
+    align-items: flex-end;
+    text-align: right
+}
+
+.pager-link.pager-link-next:after {
+    content: "\e97f";
+    right: .2rem
+}
+
+.pager-link:focus,
+.pager-link:hover {
+    color: #999
+}
+
+.pager-link:focus .pager-link-title,
+.pager-link:hover .pager-link-title {
+    box-shadow: 0 .2rem 0 #333
+}
+
+.pager-link-title {
+    display: inline-block;
+    margin-top: .6rem;
+    flex: 0 0 auto;
+    color: #222;
+    font-size: 1.5rem;
+    font-weight: 700;
+    transition: .35s;
+    max-width: 100%
+}
+
+@media (max-width:575px) {
+    .pager-link-title {
+        display: none
+    }
+
+    .pager-link.pager-link-next {
+        border: 0
+    }
+}
+
+.related-posts {
+    padding: 7rem 0 4.5rem
+}
+
+.related-posts .post-details {
+    padding: 2.3rem 0 1rem
+}
+
+.related-posts .post-content {
+    margin-bottom: 1.8rem;
+    line-height: 1.72
+}
+
+.comments .title-simple,
+.related-posts .title-simple,
+.reply .title-simple {
+    font-size: 2.4rem
+}
+
+.footer-app-image {
+    max-width: 142px !important;
+    height: auto
+}
+
+.qr-code-img {
+    max-width: 180px !important;
+    height: auto
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #4dae67;
+}
+
+::selection {
+    color: #fff;
+    background: #4dae67;
+}
